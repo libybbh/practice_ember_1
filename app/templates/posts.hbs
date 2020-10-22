@@ -1,0 +1,14 @@
+<h2>Posts list</h2>
+<div>
+  <label>User Id value:</label>
+  {{input value=userId}}
+  <label>Title:</label>
+  {{input value=title}}
+  <label>Body:</label>
+  {{input value=body}}
+  <input type="button" id ="add-button" value="Add" {{action 'addPost' userId title body}}/>
+</div>
+
+{{#each model as |postUnit|}}
+ {{post-listing post=postUnit}}
+{{/each}}
