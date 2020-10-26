@@ -9,6 +9,6 @@
   <input type="button" id ="add-button" value="Add" {{action 'addPost' userId title body}}/>
 </div>
 
-{{#each model as |postUnit|}}
+{{#each reverse as |postUnit|}}
  {{post-listing post=postUnit}}
 {{/each}}
