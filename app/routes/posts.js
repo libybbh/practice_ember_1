@@ -7,11 +7,13 @@ export default Route.extend({
   },
 
   actions: {
-    addPost(n_title, n_body, n_userId) {
+    addPost(n_userId, n_title, n_body) {
       var myStore = this.store;
       let jsonData = $.getJSON('https://jsonplaceholder.typicode.com/posts');
 
-      jsonData.then(function(data) {
+      if(n_userId >= 1 & n_userId <= 100)
+      {
+        jsonData.then(function(data) {
         var sizeOfData = data.length;
         alert("JsonData array size is: " + sizeOfData);
 
@@ -26,6 +28,7 @@ export default Route.extend({
           posts: [newPost]
         });
       });
+      }else alert('Put correct UserID!');
 
      // var size1 = Object.keys(jsonData).length; -> get 16, not 100
 

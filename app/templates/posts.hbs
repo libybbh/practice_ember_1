@@ -1,12 +1,18 @@
-<h2>Posts list</h2>
-<div>
-  <label>User Id value:</label>
-  {{input value=userId}}
-  <label>Title:</label>
+<h1>Posts list</h1>
+<label>User Id:</label>
+<div class="input-container">
+  {{input type="number" min="1" max="100" value=userId}}
+</div>
+<label>Title:</label>
+<div class="input-container">
   {{input value=title}}
-  <label>Body:</label>
+</div>
+<label>Body:</label>
+<div class="input-container">
   {{input value=body}}
-  <input type="button" id ="add-button" value="Add" {{action 'addPost' userId title body}}/>
+  <div id="btn">
+    <input type="button" id ="addPost-btn" value="Add" {{action 'addPost' userId title body}}/>
+  </div>
 </div>
 
 {{#each reverse as |postUnit|}}
