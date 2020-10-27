@@ -13,7 +13,7 @@ export default Route.extend({
 
       if(n_userId >= 1 & n_userId <= 100)
       {
-        jsonData.then(function(data) {
+        jsonData.then(function(data) {  // can get data only from function(data)
         var sizeOfData = data.length;
         alert("JsonData array size is: " + sizeOfData);
 
@@ -30,7 +30,8 @@ export default Route.extend({
       });
       }else alert('Put correct UserID!');
 
-     // var size1 = Object.keys(jsonData).length; -> get 16, not 100
+     //let jsonData = $.getJSON('https://jsonplaceholder.typicode.com/posts');
+     //var size1 = Object.keys(jsonData).length; -> get 16, not 100
 
       /*var newRecord = this.store.push('post', {
         userId: p_userId,
