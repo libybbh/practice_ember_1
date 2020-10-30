@@ -10,11 +10,11 @@
 <label>Body:</label>
 <div class="input-container">
   {{input value=body}}
-  <div id="btn">
-    <input type="button" id ="addPost-btn" value="Add" {{action 'addPost' userId title body}}/>
+  <div id="btn">                  {{!-- is it possible to rewrite input in {{}}? problems with action --}}
+    <input type="button" id ="addPost-btn" value="Add" {{action 'addPost' userId title body}} disabled={{isDisabled}}/>
   </div>
 </div>
 
 {{#each reverse as |postUnit|}}
- {{post-listing post=postUnit}}
+  {{post-listing post=postUnit}}
 {{/each}}
