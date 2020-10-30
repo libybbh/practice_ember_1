@@ -1,18 +1,26 @@
 <h1>Posts list</h1>
+
 <label>User Id:</label>
 <div class="input-container">
   {{input type="number" min="1" max="100" value=userId}}
 </div>
+<label class="error-label" hidden={{isHidden_userId}}>Fill up the User ID of post</label>
+<br><br>
+
 <label>Title:</label>
 <div class="input-container">
   {{input value=title}}
 </div>
+<label class="error-label" hidden={{isHidden_title}}>Fill up the Title of post</label>
+<br><br>
+
 <label>Body:</label>
 <div class="input-container">
   {{input value=body}}
-  <div id="btn">                  {{!-- is it possible to rewrite input in {{}}? problems with action --}}
-    <input type="button" id ="addPost-btn" value="Add" {{action 'addPost' userId title body}} disabled={{isDisabled}}/>
-  </div>
+</div>
+<label class="error-label" hidden={{isHidden_body}}>Fill up the Body of post</label>
+<div id="btn">                  {{!-- is it possible to rewrite input in {{}}? problems with action --}}
+  <input type="button" id="addPost-btn" value="Add" {{action 'addPost' userId title body}} disabled={{isDisabled}}/>
 </div>
 
 {{#each reverse as |postUnit|}}

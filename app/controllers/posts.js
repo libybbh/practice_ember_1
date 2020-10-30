@@ -4,6 +4,9 @@ import {computed, observer, set} from '@ember/object';
 
 export default Controller.extend({
   isDisabled: true,
+  isHidden_userId: true,
+  isHidden_title: true,
+  isHidden_body: true,
 
   reverse: computed('model.[]', function () {
     return this.get('model').toArray().reverse();
@@ -12,7 +15,12 @@ export default Controller.extend({
   isBtnDisabled: observer('userId', 'title', 'body', function () {                  // how it observe correct variables?
     if (!isPresent(this.userId) | !isPresent(this.title) | !isPresent(this.body)) { // why here we can't use userId body title like in line above
       set(this, 'isDisabled', true);
-    } else set(this, 'isDisabled', false);
+    } else{
+      set(this, 'isDisabled', false);
+    }
+    if (!isPresent(this.userId)) set(this, 'isHidden_userId', false); else set(this, 'isHidden_userId', true);
+    if (!isPresent(this.title)) set(this, 'isHidden_title', false); else set(this, 'isHidden_title', true);
+    if (!isPresent(this.body)) set(this, 'isHidden_body', false); else set(this, 'isHidden_body', true);
   })
 });
 
