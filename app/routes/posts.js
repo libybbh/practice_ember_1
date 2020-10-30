@@ -11,23 +11,22 @@ export default Route.extend({
       var myStore = this.store;
       let jsonData = $.getJSON('https://jsonplaceholder.typicode.com/posts');
 
-      if (n_userId >= 1 & n_userId <= 100) {
-        jsonData.then(function (data) {  // can get data only from function(data)
-          var sizeOfData = data.length;
-          alert("JsonData array size is: " + sizeOfData);
+      jsonData.then(function (data) {  // can get data only from function(data)
+        var sizeOfData = data.length;
+        alert("JsonData array size is: " + sizeOfData);
 
-          var newPost = {
-            userId: n_userId,
-            id: sizeOfData + 1,
-            title: n_title,
-            body: n_body
-          }
+        var newPost = {
+          userId: n_userId,
+          id: sizeOfData + 1,
+          title: n_title,
+          body: n_body
+        }
 
-          myStore.pushPayload({
-            posts: [newPost]
-          });
+        myStore.pushPayload({
+          posts: [newPost]
         });
-      } else alert("Put correct ID!");
+      });
+
     }
   }
 });

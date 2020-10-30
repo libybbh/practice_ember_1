@@ -4,7 +4,7 @@
     <list default="true" id="0fc7e17b-86f0-4b33-9a61-984cff6a4fe4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/posts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/posts.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/posts.hbs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +24,8 @@
       <file leaf-file-name="posts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes/posts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="211">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -33,20 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/styles/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="posts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/posts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="420">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -54,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts.hbs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="posts.hbs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/posts.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="140">
+              <caret line="7" column="96" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -93,10 +84,10 @@
         <option value="$PROJECT_DIR$/app/serializers/post.js" />
         <option value="$PROJECT_DIR$/app/routes/.gitignore" />
         <option value="$PROJECT_DIR$/app/templates/components/post-listing.hbs" />
+        <option value="$PROJECT_DIR$/app/styles/app.css" />
+        <option value="$PROJECT_DIR$/app/controllers/posts.js" />
         <option value="$PROJECT_DIR$/app/routes/posts.js" />
         <option value="$PROJECT_DIR$/app/templates/posts.hbs" />
-        <option value="$PROJECT_DIR$/app/controllers/posts.js" />
-        <option value="$PROJECT_DIR$/app/styles/app.css" />
       </list>
     </option>
   </component>
@@ -141,12 +132,16 @@
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-HVZhltfS.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-HnprhyHz.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-Hx3Zp50n.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-KQa7GE9T.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-KijseUnE.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-L4lqN1Mc.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-OwF4VbHN.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-QIg3ROUQ.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-QWHTHY6d.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-QeQ7SUEW.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-SloTkRBQ.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-TDw0vGc2.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-UZlKOOFm.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-V1mGfbAS.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-X7zAAotp.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-XbB4Miyw.tmp/vendor/regenerator-runtime/package.json" />
@@ -171,6 +166,7 @@
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-u678Ao55.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-u8TnqyEf.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-vXftZqqy.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-vbOe2xsh.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-vwZse9y6.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-input_base_path-xaWThaLp.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-03cyyY1s.tmp/vendor/regenerator-runtime/package.json" />
@@ -187,14 +183,17 @@
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-AJlCWokY.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-AdhQz2ZT.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-AylUVGDf.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-CdMYaPxJ.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-CwoZyQBS.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-DaJXQSKB.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-EOQFsBbN.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-F9ecsE7s.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-GObRRpJ0.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-GTAi9Mo5.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-GZA4CoIL.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-J7W4zPj3.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-JhfSIsso.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-Jm40LV6O.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-LUDhHsSr.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-Le4Se6ni.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-Mxfzn5CQ.tmp/vendor/regenerator-runtime/package.json" />
@@ -208,6 +207,7 @@
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-UvXzT8TH.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-VxCr3kbY.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-Wqf3G7M9.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-XQ1k3vdH.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-XnVNcjZ3.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-Xxu9hzZC.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-Z3kUyzqc.tmp/vendor/regenerator-runtime/package.json" />
@@ -231,6 +231,7 @@
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-qo1uYuln.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-rV0GlBAU.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-rqWs2u9h.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-uTLFZqM1.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-v6Fdr2S6.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-vYfphg2V.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_debug-output_path-vib3am9u.tmp/vendor/regenerator-runtime/package.json" />
@@ -241,6 +242,7 @@
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-1zaTRXKh.tmp/2/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-39ilW8rt.tmp/2/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-532iYpWv.tmp/0/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-5nhv54og.tmp/0/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-6EF6oKbG.tmp/3/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-6ifQaUHa.tmp/3/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-7OGE9ZGq.tmp/0/vendor/regenerator-runtime/package.json" />
@@ -267,6 +269,7 @@
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-IfWTBUQj.tmp/0/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-IiPmAoxd.tmp/1/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-IiPmAoxd.tmp/2/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-L7yW9QCl.tmp/3/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-LCzvmZcd.tmp/3/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-LYbzLP9A.tmp/1/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-LYbzLP9A.tmp/2/vendor/regenerator-runtime/package.json" />
@@ -303,10 +306,13 @@
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-frxEz2jq.tmp/0/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-g2mynV4T.tmp/2/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-gBTx1Oaw.tmp/0/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-gBx6j3ei.tmp/0/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-gm8zrTac.tmp/0/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-iHdHNevQ.tmp/0/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-iaEmpN7e.tmp/0/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-jMD9KBN1.tmp/0/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-jOE4fGU3.tmp/1/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-jOE4fGU3.tmp/2/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-jgQ4LDJc.tmp/0/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-kW8pDQjA.tmp/0/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-kqBHrSX4.tmp/3/vendor/regenerator-runtime/package.json" />
@@ -316,9 +322,12 @@
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-mYVzDARM.tmp/2/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-mjJdd2np.tmp/0/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-nbHxSuBB.tmp/2/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-pXvH1zBL.tmp/0/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-qEzJ0KLm.tmp/0/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-rzPRViBH.tmp/2/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-sTmEo7qA.tmp/0/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-sfoWBxeK.tmp/0/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-swKByA3m.tmp/2/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-swksDHgW.tmp/2/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-vyNn77sF.tmp/0/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-wPdhZSEK.tmp/0/vendor/regenerator-runtime/package.json" />
@@ -330,6 +339,7 @@
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-yqhU0pdM.tmp/1/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-yqhU0pdM.tmp/2/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-input_base_path-yuArnShO.tmp/0/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-0RDcxw1x.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-14iyzMZB.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-1AaffKl1.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-1TIuBQ0Y.tmp/vendor/regenerator-runtime/package.json" />
@@ -338,6 +348,7 @@
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-4zEvR79p.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-57jK7Gmb.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-5lbAzKjd.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-6MDAyyFU.tmp/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-6xYcb3bK.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-7RYZ7xt0.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-7Y3eTOwy.tmp/vendor/regenerator-runtime/package.json" />
@@ -361,6 +372,7 @@
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-LEtVLJ2b.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-Lbmpq9xk.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-MbZxDhnA.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-NeagFJji.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-O2YU0sqA.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-OKLj9nTM.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-OPcq5Ii7.tmp/vendor/regenerator-runtime/package.json" />
@@ -378,11 +390,13 @@
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-Wz4gMZi7.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-XTYWv9dq.tmp/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-Y4CKW5Cj.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-YieGTF6P.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-ZB4sXTRp.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-ZMhNcoyx.tmp/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-ZP5wqZK8.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-a5ck0jjE.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-bjfrnKLq.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-cHDbthSz.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-cJVg3kJM.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-cZf5VY2W.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-cuEkW0x2.tmp/vendor/regenerator-runtime/package.json" />
@@ -400,6 +414,7 @@
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-jdA1lL7o.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-khjEM3il.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-lRBgVanp.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-ll2RYxrJ.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-m8sAf84L.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-oWcdYj63.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-ooFbbtHX.tmp/vendor/regenerator-runtime/package.json" />
@@ -409,12 +424,14 @@
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-qCDQUbDb.tmp/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-qHqjSRy8.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-qO4XmXll.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-qxCQZVCW.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-vUAZG5K3.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-w1JAwPaq.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-wmIyakO5.tmp/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-xREmd5ng.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-xngiZp80.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/broccoli_merge_trees-output_path-z1DVxk6B.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-1dsCYRXX.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-22qHJJXN.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-2DRAdh8N.tmp/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-2HkUIhR0.tmp/vendor/regenerator-runtime/package.json" />
@@ -441,6 +458,7 @@
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-9Vvbrqw7.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-9kRyvdLE.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-AJ0TeTAi.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-Bnu3E7kz.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-C71QQ5vj.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-CFc0rBc6.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-CI1guEkq.tmp/vendor/regenerator-runtime/package.json" />
@@ -465,6 +483,7 @@
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-IUc9KEQe.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-IiO2utS4.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-IrvpgJPq.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-JlDTiR7x.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-JnI20AeS.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-KjOK77oS.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-LuR2IBol.tmp/vendor/regenerator-runtime/package.json" />
@@ -477,6 +496,7 @@
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-Nj9SlIVf.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-NkTG4xgk.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-NpG5cG0k.tmp/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-OnlRrnD3.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-PMM2HmnZ.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-PVqTDsII.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-QHeDfXM0.tmp/vendor/regenerator-runtime/package.json" />
@@ -491,10 +511,12 @@
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-TVm3xN5y.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-TmItCdvB.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-U4tUIaZz.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-UAR2Egg5.tmp/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-US9ZLsqQ.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-V3suUpOz.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-VUfIZ67d.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-VffOKg1p.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-XIsBCY7W.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-YMw2vqT7.tmp/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-YkvEuMwp.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-Z04PXxV2.tmp/vendor/regenerator-runtime/package.json" />
@@ -519,9 +541,11 @@
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-eRvD5r3U.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-eeI4vGlC.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-esYdMpbI.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-ezuk3GGD.tmp/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-fgSimYXk.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-gc5GTULk.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-h6yKsR6W.tmp/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-hGfJTgDH.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-hjyR5j2R.tmp/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-hruGKffr.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-iVYFWk7m.tmp/vendor/regenerator-runtime/package.json" />
@@ -538,7 +562,9 @@
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-mox7imRe.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-n8XOBd2O.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-nJuxuSzu.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-nUzkWTfz.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-oWfCZ6h4.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-oxRzsKu4.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-pB3oyelt.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-pC3owDCr.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-puc4KokE.tmp/vendor/regenerator-runtime/package.json" />
@@ -551,10 +577,12 @@
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-sU6hxeVc.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-tCvBkbO8.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-tDNAkwxy.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-tYBmwOpW.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-tZjYLwpb.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-tgyzgAZj.tmp/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-toffkiSx.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-tsZqYPSO.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-uafNrjMB.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-wMGROO2l.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-xjtegODL.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-input_base_path-yOOhruKQ.tmp/vendor/regenerator-runtime/package.json" />
@@ -566,8 +594,10 @@
       <path value="$PROJECT_DIR$/tmp/funnel-output_path-7zP7mrtw.tmp/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-output_path-AlE5UkeW.tmp/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-output_path-ISojnftl.tmp/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-output_path-KQ2BVf2l.tmp/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-output_path-R66mzpvI.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-output_path-RAd0cPTy.tmp/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/funnel-output_path-RDlDjOKI.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-output_path-SBUPy0UX.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-output_path-SbKpt8qc.tmp/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/funnel-output_path-VZkDLR5U.tmp/vendor/regenerator-runtime/package.json" />
@@ -18628,6 +18658,7 @@
       <path value="$PROJECT_DIR$/tmp/simple_concat_concat-input_base_path-3NYP4Ouk.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/simple_concat_concat-input_base_path-3hH4RhVW.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/simple_concat_concat-input_base_path-7BQ8Fiqc.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/simple_concat_concat-input_base_path-BTqOTL7c.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/simple_concat_concat-input_base_path-JxG5VuIu.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/simple_concat_concat-input_base_path-KHpC33GM.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/simple_concat_concat-input_base_path-QIcJlK5X.tmp/vendor/regenerator-runtime/package.json" />
@@ -18643,6 +18674,7 @@
       <path value="$PROJECT_DIR$/tmp/simple_concat_concat-input_base_path-j9rFPvcU.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/simple_concat_concat-input_base_path-jvIcVxkV.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/simple_concat_concat-input_base_path-l9WA6UED.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/simple_concat_concat-input_base_path-oIrCjSpQ.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/simple_concat_concat-input_base_path-pDcMUL0d.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/simple_concat_concat-input_base_path-xpg96phv.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/simple_concat_concat-input_base_path-yfkDMYMZ.tmp/vendor/regenerator-runtime/package.json" />
@@ -18651,6 +18683,7 @@
       <path value="$PROJECT_DIR$/tmp/source_map_concat-input_base_path-4xi3t9EX.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/source_map_concat-input_base_path-7JgDGO3b.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/source_map_concat-input_base_path-81w6vKlV.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/source_map_concat-input_base_path-91vk8tsa.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/source_map_concat-input_base_path-96BoM6Y7.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/source_map_concat-input_base_path-A0Xd8T8T.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/source_map_concat-input_base_path-J7wPZ1ZL.tmp/vendor/regenerator-runtime/package.json" />
@@ -18668,6 +18701,8 @@
       <path value="$PROJECT_DIR$/tmp/source_map_concat-input_base_path-YwYkI1cQ.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/source_map_concat-input_base_path-ZNyUyE9B.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/source_map_concat-input_base_path-ZnPMvqu4.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/source_map_concat-input_base_path-ZyiY8dO1.tmp/vendor/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/tmp/source_map_concat-input_base_path-ch5uvlEN.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/source_map_concat-input_base_path-dE85KbVG.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/source_map_concat-input_base_path-dGgn5Chh.tmp/vendor/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/tmp/source_map_concat-input_base_path-dUrWwQhg.tmp/vendor/regenerator-runtime/package.json" />
@@ -18697,6 +18732,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -18790,9 +18827,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -18880,7 +18915,8 @@
       <workItem from="1603787418840" duration="5143000" />
       <workItem from="1603931644353" duration="1181000" />
       <workItem from="1603961174197" duration="8632000" />
-      <workItem from="1604010114163" duration="7612000" />
+      <workItem from="1604010114163" duration="8529000" />
+      <workItem from="1604050925382" duration="1649000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit/GET JSON data from fake API">
       <created>1603407849757</created>
@@ -18931,11 +18967,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604018771600</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add styles for disabled button and error labels for input">
+      <created>1604024780871</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604024780871</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69465000" />
+    <option name="totallyTimeSpent" value="72031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -18946,15 +18989,15 @@
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50771207" side_tool="true" visible="true" weight="0.19647697" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="3" sideWeight="0.5096401" side_tool="true" visible="true" weight="0.13279133" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.4922879" visible="true" weight="0.19647697" />
+      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.4903599" visible="true" weight="0.13279133" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4929306" weight="0.3604336" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49164525" weight="0.3604336" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20822622" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21079692" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -19051,7 +19094,8 @@
     <MESSAGE value="Updates for style(2)" />
     <MESSAGE value="Change old property function to computed in controller" />
     <MESSAGE value="button is disabled when userId, title and/or body are empty" />
-    <option name="LAST_COMMIT_MESSAGE" value="button is disabled when userId, title and/or body are empty" />
+    <MESSAGE value="add styles for disabled button and error labels for input" />
+    <option name="LAST_COMMIT_MESSAGE" value="add styles for disabled button and error labels for input" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/adapters/application.js">
@@ -19363,17 +19407,17 @@
     <entry file="file://$PROJECT_DIR$/app/templates/index.hbs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/posts.hbs">
+    <entry file="file://$PROJECT_DIR$/app/styles/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="1960">
+          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/posts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="420">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -19382,18 +19426,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/posts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="211">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/app.css">
+    <entry file="file://$PROJECT_DIR$/app/templates/posts.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+        <state relative-caret-position="140">
+          <caret line="7" column="96" selection-start-line="7" selection-start-column="96" selection-end-line="7" selection-end-column="96" />
         </state>
       </provider>
     </entry>

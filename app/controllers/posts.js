@@ -7,18 +7,24 @@ export default Controller.extend({
   isHidden_userId: true,
   isHidden_title: true,
   isHidden_body: true,
+  isHidden_userId_correct: true,
 
   reverse: computed('model.[]', function () {
     return this.get('model').toArray().reverse();
   }),
 
   isBtnDisabled: observer('userId', 'title', 'body', function () {                  // how it observe correct variables?
-    if (!isPresent(this.userId) | !isPresent(this.title) | !isPresent(this.body)) { // why here we can't use userId body title like in line above
+    if (!isPresent(this.userId) | !isPresent(this.title) | !isPresent(this.body) | !(this.userId >=1 & this.userId<=100)) { // why here we can't use userId body title like in line above
       set(this, 'isDisabled', true);
     } else{
       set(this, 'isDisabled', false);
     }
-    if (!isPresent(this.userId)) set(this, 'isHidden_userId', false); else set(this, 'isHidden_userId', true);
+    if (!isPresent(this.userId)) {
+      set(this, 'isHidden_userId', false);
+    } else {
+      set(this, 'isHidden_userId', true);
+      if (this.userId >=1 & this.userId<=100) set(this, 'isHidden_userId_correct', true); else set(this, 'isHidden_userId_correct', false);
+    }
     if (!isPresent(this.title)) set(this, 'isHidden_title', false); else set(this, 'isHidden_title', true);
     if (!isPresent(this.body)) set(this, 'isHidden_body', false); else set(this, 'isHidden_body', true);
   })
