@@ -20,8 +20,8 @@
   {{input value=body}}
 </div>
 <label class="error-label" hidden={{isHidden_body}}>Fill up the Body of post</label>
-<div id="btn">                  {{!-- is it possible to rewrite input in {{}}? problems with action --}}
-  <input type="button" id="addPost-btn" value="Add" {{action 'addPost' userId title body}} disabled={{isDisabled}}/>
+<div id="btn">
+  <button id="addPost-btn" {{action "addPost" userId title body}} disabled={{isDisabled}}>Add</button>
 </div>
 
 {{#each reverse as |postUnit|}}
